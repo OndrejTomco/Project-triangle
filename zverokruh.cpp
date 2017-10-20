@@ -3,128 +3,124 @@ main()
 {
 	int month = 0;
 	int day = 0;
-	while(1)
-	{
 	
-	printf("Mesiac narodenia: ");
+	printf("Enter month of birth: ");
 	scanf("%d", &month);
-	printf("Den narodenia: ");
+	printf("Enter day of birth: ");
 	scanf("%d", &day);
 	
 	switch(month)
 	{
 		case 1:
 			if(day>0 && day<21) {
-				printf("Kozorozec");
+				printf("Capricorn");
 			}
 			else {
-				printf("Vodnar");
+				printf("Aquarius");
 			}
 			break;
 			
 		case 2:
 			if(day>0 && day<20) {
-				printf("Vodnar");
+				printf("Aquarius");
 			}
 			else {
-				printf("Ryby");
+				printf("Pisces");
 			}
 			break;
 			
 		case 3:
 			if(day>0 && day<21) {
-				printf("Ryby");
+				printf("Pisces");
 			}
 			else {
-				printf("Baran");
+				printf("Aries");
 			}
 			break;
 			
 		case 4:
 			if(day>0 && day<21) {
-				printf("Baran");
+				printf("Aries");
 			}
 			else {
-				printf("Byk");
+				printf("Taurus");
 			}
 			break;
 			
 		case 5:
 			if(day>0 && day<21) {
-				printf("Byk");
+				printf("Taurus");
 			}
 			else {
-				printf("Blizenci");
+				printf("Gemini");
 			}
 			break;
 			
 		case 6:
 			if(day>0 && day<21) {
-				printf("Blizenci");
+				printf("Gemini");
 			}
 			else {
-				printf("Rak");
+				printf("Cancer");
 			}
 			break;
 			
 		case 7:
 			if(day>0 && day<23) {
-				printf("Rak");
+				printf("Cancer");
 			}
 			else {
-				printf("Lev");
+				printf("Leo");
 			}
 			break;
 			
 		case 8:
 			if(day>0 && day<23) {
-				printf("Lev");
+				printf("Leo");
 			}
 			else {
-				printf("Panna");
+				printf("Virgo");
 			}
 			break;
 			
 		case 9:
 			if(day>0 && day<23) {
-				printf("Panna");
+				printf("Virgo");
 			}
 			else {
-				printf("Vahy");
+				printf("Libra");
 			}
 			break;
 			
 		case 10:
 			if(day>0 && day<23) {
-				printf("Vahy");
+				printf("Libra");
 			}
 			else {
-				printf("Skorpion");
+				printf("Scorpio");
 			}
 			break;
 			
 		case 11:
 			if(day>0 && day<23) {
-				printf("Skorpion");
+				printf("Scorpio");
 			}
 			else {
-				printf("Strelec");
+				printf("Sagittarius");
 			}
 			break;
 			
 		case 12:
 			if(day>0 && day<22) {
-				printf("Strelec");
+				printf("Sagittarius");
 			}
 			else {
-				printf("Kozorozec");
+				printf("Capricorn");
 			}
 			break;
 		default: printf("Wrong input");
 		
 		
 	}
-	printf("\n");
-}
 		
 }

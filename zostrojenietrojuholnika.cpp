@@ -1,19 +1,20 @@
-#include  <stdio.h>
+// Ondrej Tomco, 1.N
+
+#include <stdio.h>
 main()
 {
 	int a;
 	int b;
 	int c;
-	printf("Zadaj 3 strany trojuholnika:\n");
+	printf("Enter 3 sizes of triangle sides\n");
 	scanf("%d %d %d", &a, &b, &c);
 	
 	if(a+b>c && b+c>a && a+c>b) {
-		printf("ano");
-		
+		printf("This triangle can be constructed ");
 	}	
 	
 	else {
-		printf("nie");
+		printf("This triangle cannot be constructed");
 	}	
 	
 }
